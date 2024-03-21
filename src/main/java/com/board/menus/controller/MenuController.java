@@ -28,6 +28,7 @@ public class MenuController {
       //fsdlfnewslf
       //fdshflwe
       //fsdfs이것부터
+   
       return "menus/list";
    }
    
