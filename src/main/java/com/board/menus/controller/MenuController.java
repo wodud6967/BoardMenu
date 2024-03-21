@@ -56,18 +56,22 @@ public class MenuController {
 		 * model.addAttribute("menuList",menuList); return "menus/list"
 		 */
    }
-   //메뉴 삭제 /Menus/Delete?menu_id=MENU03
-   @RequestMapping("/Delete")
-   public String delete(MenuVo menuVo, Model model) {
-	   
-	   //MENU03을 삭제
-	   menuMapper.deleteMenu(menuVo);
-	   //테스트
-	   //테스트
-	   //조회
-	   //List<MenuVo> menulist = menuMapper.getMenuList();
-	   //model.addAttribute("menuList", menulist);
-	   //이동할 파일
-	   return "redirect:/Menus/List";
+   @RequestMapping("Delete")
+   public String delete() {
+	   return "<script>alert('삭제되었습니다.')</spript>";
    }
+   //메뉴 삭제 /Menus/Delete?menu_id=MENU03
+//   @RequestMapping("/Delete")
+//   public String delete(MenuVo menuVo, Model model) {
+//	   
+//	   //MENU03을 삭제
+//	   menuMapper.deleteMenu(menuVo);
+//	   //테스트
+//	   //테스트
+//	   //조회
+//	   //List<MenuVo> menulist = menuMapper.getMenuList();
+//	   //model.addAttribute("menuList", menulist);
+//	   //이동할 파일
+//	   return "redirect:/Menus/List";
+//   }
 }
