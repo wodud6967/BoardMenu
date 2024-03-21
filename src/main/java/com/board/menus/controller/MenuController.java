@@ -27,6 +27,7 @@ public class MenuController {
       System.out.println("MenuController list() menuList=" + menuList);
       //fsdlfnewslf
       //fdshflwe
+      //fsdfs이것부터
       return "menus/list";
    }
    
