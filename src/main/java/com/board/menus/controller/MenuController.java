@@ -25,6 +25,7 @@ public class MenuController {
       // 조회 결과를 넘겨 준다 (Model)
       model.addAttribute("menuList", menuList);
       System.out.println("MenuController list() menuList=" + menuList);
+      //fsdlfnewslf
       return "menus/list";
    }
    
