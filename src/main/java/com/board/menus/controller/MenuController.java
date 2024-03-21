@@ -50,6 +50,7 @@ public class MenuController {
       // /Menus/Write?menu_id=MENU02&menu_name=JSP&menu_seq=2
       //menuMapper.insertMenu(menu_id,menu_name,menu_seq);
 	  //dfd
+	   //d
       menuMapper.insertMenu(menuVo);
       
       return "redirect:/Menus/List";
