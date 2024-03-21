@@ -11,10 +11,14 @@
       
   </insert>
   
-  <select id="getMenuList">
+  <select id="getMenuList" resultType="com.board.menus.domain.MenuVo">
    SELECT MENU_ID,MENU_NAME,MENU_SEQ
    FROM   MENUS
    ORDER BY MENU_SEQ ASC
 
+  </select>
+  <select id ="deleteMenu">
+  	DELETE FROM MENUS
+  	 WHERE MENU_ID = #{menu_id}
   </select>
 </mapper>     
