@@ -49,6 +49,7 @@ public class MenuController {
       // 넘어온 데이터를 db 에 저장하고
       // /Menus/Write?menu_id=MENU02&menu_name=JSP&menu_seq=2
       //menuMapper.insertMenu(menu_id,menu_name,menu_seq);
+	  //dfd
       menuMapper.insertMenu(menuVo);
       
       return "redirect:/Menus/List";
