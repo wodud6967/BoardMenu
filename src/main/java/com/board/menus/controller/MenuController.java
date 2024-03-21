@@ -63,6 +63,7 @@ public class MenuController {
 	   //MENU03을 삭제
 	   menuMapper.deleteMenu(menuVo);
 	   //테스트
+	   //테스트
 	   //조회
 	   //List<MenuVo> menulist = menuMapper.getMenuList();
 	   //model.addAttribute("menuList", menulist);
