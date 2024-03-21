@@ -57,6 +57,7 @@ public class MenuController {
 		/*
 		 * List<MenuVo> menuList = menuMapper.getMenuList();
 		 * model.addAttribute("menuList",menuList); return "menus/list"
+		 * dsdsd
 		 */
    }
    @RequestMapping("Delete")
