@@ -123,10 +123,13 @@ public class MenuController {
 	   model.addAttribute("menu", menu);
 	   return "menus/update";
    }
- 
+   
+   //http://localhost:9090/Menus/Update?menu_id=MENU04&menu_name=cplus&menu_seq=4
    @RequestMapping("/Update")
    public String update(MenuVo menuVo) {
 	   //수정
+	   menuMapper.updateMenu(menuVo);
+	   
 	   
 	   //수정후 조회
 	   return "redirect:/Menus/List";

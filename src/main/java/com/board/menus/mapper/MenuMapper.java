@@ -23,6 +23,8 @@ public interface MenuMapper {
 
    MenuVo getMenu(@NonNull String menu_id);
 
+   void updateMenu(MenuVo menuVo);
+
    
    
 }
