@@ -129,6 +129,7 @@ public class MenuController {
    public String update(MenuVo menuVo) {
 	   //수정
 	   menuMapper.updateMenu(menuVo);
+	   //테스트
 	   
 	   
 	   //수정후 조회
